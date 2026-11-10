@@ -1,4 +1,4 @@
-# workfinds MCP server
+# workfinds.app MCP server
 
 Search open jobs from your AI assistant. [workfinds.app](https://workfinds.app) reads company career sites and
 shows the jobs you can apply for from your country, remote, hybrid or onsite. This repository holds the connection
