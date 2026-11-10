@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.workfinds/jobs",
+  "title": "workfinds.app jobs",
+  "description": "Search open jobs from company career sites by the country you can apply from, remote or onsite.",
+  "version": "1.0.0",
+  "websiteUrl": "https://workfinds.app/developers",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://workfinds.app/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://workfinds.app/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ]
+}

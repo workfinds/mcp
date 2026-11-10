@@ -1,0 +1,10 @@
+{
+  "name": "workfinds",
+  "version": "1.0.0",
+  "description": "Search open jobs from company career sites by the country you can apply from, remote, hybrid or onsite. Free, read-only, no sign-in.",
+  "mcpServers": {
+    "workfinds": {
+      "httpUrl": "https://workfinds.app/mcp"
+    }
+  }
+}
