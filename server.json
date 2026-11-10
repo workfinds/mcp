@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.workfinds/jobs",
-  "title": "workfinds.app jobs",
+  "title": "workfinds.app",
   "description": "Search open jobs from company career sites by the country you can apply from, remote or onsite.",
-  "version": "1.0.0",
-  "websiteUrl": "https://workfinds.app/developers",
+  "version": "1.0.1",
+  "websiteUrl": "https://workfinds.app/mcp",
   "remotes": [
     {
       "type": "streamable-http",
