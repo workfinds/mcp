@@ -1,15 +1,31 @@
 # workfinds.app MCP server
 
-Search open jobs from your AI assistant. [workfinds.app](https://workfinds.app) reads company career sites and
-shows the jobs you can apply for from your country, remote, hybrid or onsite. This repository holds the connection
-manifests for its public MCP server. The service itself is not in this repository.
+Search open jobs from your AI assistant. [workfinds.app](https://workfinds.app) is a free job search site and app that
+lists open jobs taken straight from employers' own career sites and hiring systems, so every job links to the real
+posting and you apply on the employer's own page. This repository holds the connection files for its public MCP
+server. The service itself is not in this repository.
 
 - **Server address:** `https://workfinds.app/mcp` (Streamable HTTP)
 - **Access:** free, read-only, no sign-in and no API key
 - **Setup page:** <https://workfinds.app/mcp>
 - **Privacy:** <https://workfinds.app/privacy> · **Terms:** <https://workfinds.app/terms> · **Support:** support@workfinds.app
 
-## What it can do
+## About workfinds
+
+- **Only open jobs, linked to the employer's own posting.** Closed jobs are taken down. workfinds never applies for you.
+- **Jobs you can apply for from your country.** Filter by the country you can work from, remote, hybrid or onsite,
+  employment type, posting date and listed salary. Place, work arrangement and pay are shown as the employer
+  published them.
+- **No ads and no third-party trackers.** Results are ordered by relevance and recency, never by payment.
+- **No AI mass auto-apply.** We don't add to the flood of job applications.
+- **Countries:** jobs in more than 100 countries, the most in the United States, Germany, Brazil, the United
+  Kingdom, France, Japan, Canada, India, Singapore and Spain.
+- **Languages:** the site and the apps come in 31 interface languages. Job text stays in the language the employer
+  wrote it in.
+- **Apps:** the iOS app is on the [App Store](https://apps.apple.com/app/id6826945980). The Android app is in closed
+  testing on Google Play, and [workfinds.app](https://workfinds.app) shows its current status.
+
+## What the server can do
 
 Five read-only tools. Every result links to its page on workfinds.app.
 
@@ -75,13 +91,13 @@ list of a request: `{"type": "mcp", "server_url": "https://workfinds.app/mcp", "
 
 **Any other client:** add a Streamable HTTP server named `workfinds` at the address above, with no authentication.
 
-## Files
+### Setup files in this repository
 
 | File | For |
 |---|---|
 | `server.json` | The [MCP registry](https://registry.modelcontextprotocol.io) entry (`app.workfinds/jobs`) |
-| `mcp.json`, `plugin.json` | A Cursor plugin (an Agent Plugin: the manifest plus the server entry) |
-| `gemini-extension.json` | A Gemini CLI extension |
+| `mcp.json`, `plugin.json` | The Cursor plugin: the manifest plus the server entry |
+| `gemini-extension.json` | The Gemini CLI extension |
 | `llms-install.md` | Setup text for an AI agent that installs the server for you |
 | `assets/` | The icon (192, 400 and 512 px PNG) |
 
