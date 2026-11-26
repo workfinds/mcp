@@ -8,6 +8,7 @@ server. The service itself is not in this repository.
 - **Server address:** `https://workfinds.app/mcp` (Streamable HTTP)
 - **Access:** free, read-only, no sign-in and no API key
 - **Setup page:** <https://workfinds.app/mcp>
+- **ChatGPT plugin:** <https://chatgpt.com/plugins/plugin_asdk_app_6af5a671610c8191aacf3a15581b31ce>
 - **Privacy:** <https://workfinds.app/privacy> · **Terms:** <https://workfinds.app/terms> · **Support:** support@workfinds.app
 
 ## About workfinds
@@ -49,9 +50,7 @@ Use the server address above in any MCP client. The steps below follow each assi
 workfinds and paste the server address. Select Continue, choose No sign in, then Add. In a chat, open the plus menu,
 then Connectors, and turn workfinds on.
 
-**ChatGPT:** open Plugins. Select the plus button, then Add custom MCP server. Name it workfinds and paste the server
-address under Connection. Set authentication to none, confirm the notice, then select Create as a plugin. Start a new
-chat, type `@` and choose workfinds. Your account or workspace settings decide whether custom servers are allowed.
+**ChatGPT:** open [workfinds.app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6af5a671610c8191aacf3a15581b31ce) and select Install plugin, or search for workfinds in ChatGPT's plugins. If your workspace administrator blocks plugins from the directory, add the server address above as a custom MCP server instead: open Plugins, select the plus button, then Add custom MCP server, name it workfinds, paste the address under Connection and set authentication to none.
 
 **Claude Code:**
 
